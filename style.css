@@ -1,0 +1,328 @@
+/*=======header=====*/
+
+header {
+    background-color:#f5fcfd ;
+    height: 100px;
+    border-bottom: 1px solid #dcdcdc;
+
+
+}
+#header #logo {
+    float:left;
+    padding-top:35px;
+}
+
+#header #logo h1 {
+    font-size: 36px;
+   line-height: 24px;
+   color: #0f7bff;
+   font-family: "Quicksand";
+   font-weight: 700;
+   padding-left: 140px;
+
+}
+
+#header #menu {
+    float: right;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 500;
+    padding-right: 140px;
+    padding-top:35px;
+
+}
+
+#menu a{
+    padding-right: 30px;
+    color: #929292;
+}
+#menu a:hover{
+    color:#0f7bff;
+    text-decoration: none;
+}
+ #menu #sign-up {
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #0f7bff;
+    background-color: #0f7bff;
+    color: white;
+    border-radius: 25px;
+}
+
+#menu #sign-up:hover{
+    background-color: white;
+    color:#0f7bff;
+
+}
+
+/*=========contact===============*/
+
+#contact {
+    background: #f5fcfd;
+    height: 400px;
+}
+
+#contact #contactus{
+    float:left;
+    padding-top:130px;
+}
+
+#contact #contactus p{
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+    margin:0;
+    padding-bottom:20px;
+}
+
+#contact #contactus h1 {
+    font-size: 42px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 700;font-size: 42px;
+    line-height: 24px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 700;
+    margin:0;
+    padding-bottom: 20px;
+}
+#contact #img-contact{
+    float: right;
+    padding-top:40px;
+}
+
+/*======features=======*/
+
+#features .grid-container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 33% 33% 33%;
+    
+  }
+
+#features .feat{
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    margin: 130px 0;
+}
+
+#features .feat img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#features .feat h1{
+    font-size: 18px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 500;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#features .feat p{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    margin: 0;
+
+}
+
+#features .feat .last{
+    padding-bottom: 30px;
+}
+
+
+/*============= form ================== */
+
+#formular{
+    margin-bottom: 120px;
+}
+
+#formular .f-container {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 50% 50%;
+}
+
+
+#formular h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#formular textarea{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    width: 100%;
+    height: 160px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#formular input[type="text"]{  
+    padding: 20px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+#formular input[type="submit"]{  
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-family: "Quicksand";
+    font-weight: 700;
+    text-align: center;
+    background-color: #0f7bff;
+    border: 2px solid #0f7bff;
+    border-radius: 30px;
+    padding: 10px 50px 10px 50px;
+}
+/*=============appson=======*/
+
+#appson{
+    height: 400px;
+    background: #f5fcfd;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 120px;
+}
+#appson h1{
+    font-size: 36px;
+    line-height: 24px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+#appson p{
+    width: 458px;
+    height: 73px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#appson .col-md-6 a{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+    padding-right: 10px;
+}
+
+#appson  img:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+
+
+#appson .col-md-2 h1{
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+
+#appson .col-md-2 a{
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#appson .col-md-2 a:hover{
+    font-size: 16px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/*======Footer=============*/
+
+#footer{
+    background-color: #f5fcfd;
+    height: 100px;
+    position: relative;
+}
+
+#footer #foo-left{
+    float: left;
+    padding-top: 35px;
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-family: "Quicksand";
+    font-weight: 400;
+}
+
+#footer #foo-right{
+    padding-top: 35px;
+    float: right;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    text-align: right;
+}
+
+#footer #foo-right a{
+    padding-left: 30px;
+    color: #929292;
+
+}
+
+#footer #foo-right a:hover{
+    color: #0f7bff;
+    text-decoration: none;
+}
+
+#footer #top-arrow{
+    position: absolute;
+    float: right;
+    top: 25px;
+    right: 150px;
+    width: 45px;
+    height: 45px;
+    background-color: #0f7bff;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#footer #top-arrow img{
+    color: #ffffff;
+    padding-top: 11px;
+}
+
